@@ -1,3 +1,7 @@
 [user]
   name = "Horacio Bertorello"
   email = syrii@msn.com
+[alias]
+  gd = diff
+  gdc = diff --cached
+  gnb = checkout -b
