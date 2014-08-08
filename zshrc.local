@@ -1,3 +1,7 @@
+# Aliases
+
+# `bundle exec` abbreviation
+alias be="bundle exec"
 # Show colored output for the ls command.
 alias ls="ls --color=auto"
 
