@@ -2,6 +2,8 @@
   name = "Horacio Bertorello"
   email = syrii@msn.com
 [alias]
-  gd = diff
-  gdc = diff --cached
-  gnb = checkout -b
+  ad = !git add -A && git diff --cached
+  d = diff
+  dc = diff --cached
+  nb = checkout -b
+  wip = !git add -A && git commit -m "wip"
