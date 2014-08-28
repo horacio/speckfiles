@@ -1,5 +1,9 @@
 # Aliases
 
+# Convenient sudo replacements.
+alias please="sudo"
+alias _="sudo"
+
 # `bundle exec` abbreviation
 alias be="bundle exec"
 # Show colored output for the ls command.
