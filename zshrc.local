@@ -3,7 +3,10 @@
 # Convenient sudo replacements.
 alias please="sudo"
 alias _="sudo"
-
+# Convenient typos.
+alias sl="ls"
+alias dc="cd"
+alias ivm="vim"
 # `bundle exec` abbreviation
 alias be="bundle exec"
 # Show colored output for the ls command.
