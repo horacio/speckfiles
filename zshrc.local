@@ -11,6 +11,3 @@ alias ivm="vim"
 alias be="bundle exec"
 # Show colored output for the ls command.
 alias ls="ls --color=auto"
-
-# Complete directory names only.
-compdef _dirs ls
