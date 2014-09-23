@@ -11,6 +11,8 @@ alias ivm="vim"
 alias be="bundle exec"
 # Show colored output for the ls command.
 alias ls="ls --color=auto"
+# Use simple IRB.
+alias irb="irb --simple-prompt"
 
 # Environmental variables
 
