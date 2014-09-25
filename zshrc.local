@@ -27,3 +27,10 @@ gs_prompt_info() {
   fi
 }
 export PS1="$(gs_prompt_info)$PS1"
+
+# Tools
+
+# Serve current working directory.
+alias serve="ruby -run -e httpd . -p 9292"
+# Expose localhost to the wild Internet.
+alias lt="lt --port 9292"
