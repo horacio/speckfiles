@@ -1,1 +1,4 @@
 colorscheme elflord
+
+" TODO: Let's get rid of this error in the morning.
+let g:go_version_warning = 0

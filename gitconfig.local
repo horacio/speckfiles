@@ -1,6 +1,6 @@
 [user]
   name = "Horacio Bertorello"
-  email = syrii@msn.com
+  email = horacio.bertorello@gmail.com
 [alias]
   ad = !git add -A && git diff --cached
   d = diff

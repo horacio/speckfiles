@@ -14,20 +14,6 @@ alias ls="ls --color=auto"
 # Use simple IRB.
 alias irb="irb --simple-prompt"
 
-# Environmental variables
-
-# Add RVM to PATH for scripting
-export PATH="$PATH:$HOME/.rvm/bin"
-# Add Leiningen to PATH
-export PATH="$PATH:$HOME/bin"
-# Add GS_NAME to PS1.
-gs_prompt_info() {
-  if [[ -n $GS_NAME ]]; then
-    echo "(%{$fg_bold[cyan]%}${GS_NAME}%{$reset_color%}) "
-  fi
-}
-export PS1="$(gs_prompt_info)$PS1"
-
 # Tools
 
 # Serve current working directory.
